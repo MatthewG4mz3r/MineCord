@@ -1,0 +1,11 @@
+name: TestPlugin
+version: '${project.version}'
+main: com.classiks.test.Main
+api-version: 1.19
+authors: [ Matthew ]
+description: MineCord is a direct messaging plugin
+commands:
+  msg:
+    description: This command will send a player a message which they can reply to
+  rep:
+    description: This command will send a reply to a message that another player has sent to you
